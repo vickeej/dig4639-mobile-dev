@@ -5,4 +5,8 @@ This repository contains work completed during Spring 2020 in Dr. Murray's DIG46
 The *ice* folder contains in-class exercises. 
 
 ## About Me
-This should be replaced.
+Vickee Johnson
+
+https://www.linkedin.com/in/vickee-johnson/
+
+I am a technologically inclined individual graduating from the University of Central Florida seeking an entry level job in the field of mobile development in which I can further my skills with UI design and specifically mobile design. With experience in leadership and customer service that can aid in any team or self-motivated to accomplish tasks alone.
