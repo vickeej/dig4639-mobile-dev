@@ -1,8 +1,7 @@
 console.log("Hello World");
 var x = [1];
-
 function scopeDemo(x1) {
-    console.log(x1)
+    console.log(x1);
     console.log(x);
     let a = 3, b = 4, c = 5;
     x1[0] = 500;
@@ -13,6 +12,5 @@ function scopeDemo(x1) {
         var x = 0;
     }
 }
-
-x= scopeDemo();
+scopeDemo(x);
 console.log(x);
