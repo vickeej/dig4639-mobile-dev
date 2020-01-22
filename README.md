@@ -12,6 +12,11 @@ LinkedIn: https://www.linkedin.com/in/vickee-johnson/
 I am a technologically inclined individual graduating from the University of Central Florida seeking an entry level job in the field of mobile development in which I can further my skills with UI design and specifically mobile design. With experience in leadership and customer service that can aid in any team or self-motivated to accomplish tasks alone.
 
 ## Merging
-1. Item 1
+1. Item 1 [Google](http://www.google.com)
 1. Item 2
 1. Item 3
+This is the change
+
+## Conflicts
+
+This section represents code on the server that isn't on the local repository.
