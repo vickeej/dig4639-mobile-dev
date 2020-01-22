@@ -1,0 +1,12 @@
+Contributor: vickeej (Vickee Johnson vi436649)
+
+Ring App
+Downloading camera video:
+-Verifies access permissions upon launch
+-Event listener for user click to select camera
+-Event listener for user click to select clip
+-Pulls camera data from server
+-Event listener for user click for share option
+-Event listener for user click to select download
+-Compress and package data
+-Downloads to local storage for offline viewing & sharing
