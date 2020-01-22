@@ -15,7 +15,7 @@ I am a technologically inclined individual graduating from the University of Cen
 1. Item 1 [Google](http://www.google.com)
 1. Item 2
 1. Item 3
-This is the change
+This is the change.
 
 ## Conflicts
 
