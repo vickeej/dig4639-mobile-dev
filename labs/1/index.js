@@ -2,11 +2,10 @@ const Adder = require("./Adder.js");
 
 function runOnLoad()
 {
-    let addNum = new Addder(
-        {
-            a: 5,
-            b: 10
-        }
+    var numObject = {
+            "a": 5,
+            "b": 10
+        };
     )
     var container = document.getElementById("Adder");
 }
