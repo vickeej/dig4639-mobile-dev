@@ -4,10 +4,18 @@ class Adder {
         this.props = props;
     }
 
+    sum() {
+        let a = this.props.a,
+            b = this.props.b;
+        return ((a + b));
+      }
+
     render() {
-        return `<p>The sum of ${this.props.a} and ${this.props.b}is ${this.props.sum}`;
+        return `<span>
+        <p>The sum of ${this.props.a} and ${this.props.b}is ${sum()}</p>
+        </span>`;
     }
 
 }
 
-export default Adder;
+module.exports = Adder;
