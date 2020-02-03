@@ -1,5 +1,7 @@
 const Adder = require("./Adder.js");
 
+console.log(numObject);
+
 function runOnLoad()
 {
     var numObject = {
