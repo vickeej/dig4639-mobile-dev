@@ -6,7 +6,7 @@ function runOnLoad()
             "a": 5,
             "b": 10
         };
-    )
+
     var container = document.getElementById("Adder");
 }
 
