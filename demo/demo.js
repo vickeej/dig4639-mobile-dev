@@ -6,10 +6,13 @@ class Pet {
         return this.props.name;
     }
     getSpecies() {
-        return this.props.name;
+        return this.props.species;
     }
     getSpeech() {
-        return this.props.name;
+        return "I make this sound: ";
+    }
+    getIdentity = () => {
+        console.log(this);
     }
 }
 
@@ -18,19 +21,30 @@ class Cat extends Pet {
         super(props)
         this.props.species = "cat";
     }
+    getSpeech() {
+        return super.getSpeech() + "Meow!";
+    }
+}
 
 class Dog extends Pet {
     constructor(props) {
         super(props)
         this.props.species = "dog";
     }
-
-function sayName(pet) {
-        console.log('My Name is ${pet.getName()}, and I am a ${pet.getSpecies()}');
+    getSpeech() {
+        return super.getSpeech() + "Woof!";
     }
 }
 
-var myPet = new Pet({name: "Luna"});
-myPet.sayName();
-var myPet = new Pet({name: "Fido"});
-myDog.sayName();
+function sayName(pet) {
+        console.log('My Name is ${pet.getName()}, and I am a ${pet.getSpecies()}');
+        console.log('${pet.getSpeech()}');
+}
+
+var myPet = new Cat({name: "Luna"});
+sayName(myPet);
+myPet.getIdentity();
+var myIdentity = myPet.getIdentity;
+var myDog = new Dog({name: "Fido"});
+sayName(myDog);
+myDog.getIdentity();
