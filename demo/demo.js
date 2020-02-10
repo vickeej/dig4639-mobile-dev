@@ -1,3 +1,7 @@
+{
+    var a = 5;
+}
+console.log(a);
 class Pet {
     constructor(props) {
         this.props = props;
@@ -14,37 +18,42 @@ class Pet {
     getIdentity = () => {
         console.log(this);
     }
+    // getSum = (a,b) => a + b
+    getSum = (a,b) => {
+        return a + b
+    }
 }
 
 class Cat extends Pet {
     constructor(props) {
-        super(props)
+        super(props);
         this.props.species = "cat";
-    }
-    getSpeech() {
-        return super.getSpeech() + "Meow!";
-    }
+   }
+   getSpeech() {
+       return super.getSpeech() + "Meow!!";
+   }
 }
-
 class Dog extends Pet {
     constructor(props) {
-        super(props)
+        super(props);
         this.props.species = "dog";
     }
     getSpeech() {
-        return super.getSpeech() + "Woof!";
+        return super.getSpeech() + "Ruff Ruff!!";
     }
 }
-
 function sayName(pet) {
-        console.log('My Name is ${pet.getName()}, and I am a ${pet.getSpecies()}');
-        console.log('${pet.getSpeech()}');
+    console.log(`My name is ${pet.getName()}, and I am a ${pet.getSpecies()}`);
+    console.log(`${pet.getSpeech()}`);
 }
-
-var myPet = new Cat({name: "Luna"});
+var myPet = new Cat({name:"Luna"});
 sayName(myPet);
 myPet.getIdentity();
+// Assign the method getIdentity to the variable myIdentity
 var myIdentity = myPet.getIdentity;
-var myDog = new Dog({name: "Fido"});
+// Call the new function using the myIdentity variable
+myIdentity();
+var myDog = new Dog({name:"Fido"});
 sayName(myDog);
 myDog.getIdentity();
+console.log(myDog.getSum(10,20))
