@@ -4,7 +4,8 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: [
+  extends: [ 
+    'plugin:flowtype/recommended',
     'plugin:react/recommended',
     'standard'
   ],
@@ -12,6 +13,7 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
+  parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -20,7 +22,8 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react'
+    'react',
+    'flowtype'
   ],
   rules: {
   }
