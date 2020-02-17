@@ -4,24 +4,30 @@ import './App.css';
 
 function NameBadge(props) {
   console.log(props);
-  return (
-    <p>My Name is {props.name}</p>)
+  return ( 
+    <p>My name is {props.name}</p>
+  )
 }
 
 class App extends React.Component {
-  clickHandler = () => {
-    alert("Clicked");
+  clickHandler(e) {
+    alert("Clicked +");
+    console.log(this);
+    console.log(e);
   }
   render() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} onClick={this.clickHandler()} className="App-logo" alt="logo" />
+        <div  onClick={this.clickHandler}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <p>
-          Hello World,
-          <NameBadge name="Vickee" />
-          <NameBadge name="Johnson" />
+          Hello World 
         </p>
+        <NameBadge name="John"/>
+        <NameBadge name="Ana"/>
+        <NameBadge name="June"/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -33,7 +39,7 @@ class App extends React.Component {
       </header>
     </div>
   );
-  }
+}
 }
 
 export default App;
