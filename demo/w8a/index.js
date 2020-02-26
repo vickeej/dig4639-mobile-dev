@@ -91,7 +91,7 @@ for (const item of todoList) {
 console.log(printTodo(filteredArray).join('\n'))
 
 //
-function evalItem(item) {
+function evalItem (item) {
   return !item.completed
 }
 
