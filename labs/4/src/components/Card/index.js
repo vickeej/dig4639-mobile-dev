@@ -8,7 +8,9 @@ class Card extends React.Component {
     }
 
     render() {
-        return <div class="card">{this.content}</div>;
+        return <div class="card">
+            <h3>{this.title}</h3>
+            <p className = 'card' onClick={() => props.removeTask(props.id)}>{props.content}</p></div>;
     }
 }
 
