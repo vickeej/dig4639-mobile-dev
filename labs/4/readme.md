@@ -1,5 +1,5 @@
 # Lab 4 React Interactions
-- DIG4639C
+- DIG4639C Mobile Development
 - Vickee Johnson: https://github.com/vickeej/
 
 
