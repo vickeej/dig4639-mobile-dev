@@ -1,24 +1,17 @@
 class Adder {
     
-    constructor(props) {
-        this.props = props;
-    }
-
-    function sum(a, b) {
+    constructor(a,b) {
         this.a = a;
         this.b = b;
-        
-        this.sum = function() {       
-          return this.a + this.b;
-          }
-      }
-
-    render() {
-        return `<span>
-        <p>The sum of ${this.a} and ${this.b}is ${this.sum}</p>
-        </span>`;
     }
 
+    sum(a, b) {
+        return this.a + this.b
+    }
+
+    render() {
+        return `<p>The sum of ${this.props.a} and ${this.props.b}is ${this.sum()}</p>`;
+    }
 }
 
 module.exports = Adder;

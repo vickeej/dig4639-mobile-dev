@@ -1,18 +1,4 @@
-const Adder = require("./Adder.js");
+const Adder = require("./adder.js");
 
-console.log(numObject);
-
-function runOnLoad()
-{
-    var numObject = {
-            "a": 5,
-            "b": 10
-        };
-
-    var container = document.getElementById("Adder");
-}
-
-console.log(a.render() );
-console.log(b.render() );
-
-window.addEventListener("DOMContentLoaded", runOnLoad);
+let add = new Adder({a:5, b:10});
+console.log(add.render());
