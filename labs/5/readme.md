@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lab 5 Getting and Using External Data
+- DIG4639C Mobile Development
+- Vickee Johnson: https://github.com/vickeej/dig4639-mobile-dev/tree/master/labs/5
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
