@@ -1,0 +1,61 @@
+[
+    {
+      "question": "What is the Hogwarts motto?",
+      "possibleAnswers":
+      [
+        {"text":"Never tickle a sleeping dragon",
+        "correct":true
+        },
+        {"text":"For where your treasure is, there will your heart also be",
+          "correct":false
+        }
+      ]
+    },
+    {
+        "question": "Who owns the Hog's Head Inn?",
+        "possibleAnswers":
+        [
+          {"text":"Aberforth Dumbledore",
+          "correct":true
+        },
+          {"text":"Madam Rosmerta",
+            "correct":false
+          }
+        ]
+      },
+      {
+        "question": "Which creatures pull the carriages that take students from the Hogwarts Express to the Castle?",
+        "possibleAnswers":
+        [
+          {"text":"Hippogriffs",
+            "correct":false
+          },
+          {"text":"Thestrals",
+            "correct":true
+          }
+        ]
+      }, 
+      {
+        "question": "Who murdered Helena Ravenclaw?",
+        "possibleAnswers":
+        [
+          {"text":"Angus Slytherin",
+          "correct":false },
+          {"text":"The Bloody Baron",
+            "correct":true
+          }
+        ]
+      },
+      {
+        "question": "Who hosts the radio show Potterwatch?",
+        "possibleAnswers":
+        [
+          {"text":"Remus Lupin",
+            "correct":false
+          },
+          {"text":"Lee Jordan",
+            "correct": true
+          }
+        ]
+      }
+  ]
