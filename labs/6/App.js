@@ -5,6 +5,7 @@ import questions from "./questions.json";
 const TIME_LIMIT = 5
 const TITLE_STATE = 0
 const QUESTION_STATE = 1
+const FINAL_STATE = 2
 
 class QuizQuestion extends React.Component {
   render() {
@@ -72,7 +73,8 @@ class App extends React.Component {
   render() {
     return (
       <View style = {styles.container}>
-        <TitlePage/>
+        <Text style = {styles.text}>Harry Potter Quiz:</Text>
+        <TitlePage>Test Your Harry Potter Knowledge!</TitlePage>
       </View>
     );
   }
@@ -89,6 +91,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#FFFFFF',
-    fontSize: 30
+    fontSize: 30,
+    textDecorationLine: 'underline'
   }
 });
