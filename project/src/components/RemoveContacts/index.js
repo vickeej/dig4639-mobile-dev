@@ -41,7 +41,7 @@ class removeContacts extends React.Component{
     render(){
         return(
             <div>
-                <h3>Remove Contact</h3>
+                <h1>Remove Contact</h1>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="name">Enter position</label>
                     <br/>
@@ -53,4 +53,5 @@ class removeContacts extends React.Component{
         );
     }
 }
+
 export default removeContacts;

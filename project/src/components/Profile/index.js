@@ -20,7 +20,7 @@ class Profile extends React.Component{
     render(){
         return(
             <div>
-                <h2>Profile</h2>
+                <h1>Profile</h1>
                 {
                     this.state.profile.map((value, index) => {
                         return <p key = {index}>{value.name}, {value.count}</p>

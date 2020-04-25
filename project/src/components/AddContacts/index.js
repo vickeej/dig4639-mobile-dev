@@ -46,7 +46,7 @@ this.addUser();
 
     return (
       <div>
-        <h3>Add Contact</h3>
+        <h1>Add Contact</h1>
         <form onSubmit={this.handleSubmit}> 
             <label htmlFor="name">Full Name</label><br/>
             <input type="text" ref={this.addName} id ="name" /><br/>
