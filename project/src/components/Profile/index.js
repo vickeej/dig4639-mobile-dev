@@ -3,7 +3,9 @@ import React from 'react';
 class Profile extends React.Component{
     constructor(props){
         super(props);
-        this.state = {profile: []};
+        this.state = {
+            profile: []
+        };
     }
 
     componentDidMount(){
@@ -19,8 +21,8 @@ class Profile extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1>Profile</h1>
+            <div class = "container3">
+                <h2>Profile</h2>
                 {
                     this.state.profile.map((value, index) => {
                         return <p key = {index}>{value.name}, {value.count}</p>

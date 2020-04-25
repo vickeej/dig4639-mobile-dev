@@ -46,13 +46,13 @@ this.addUser();
 
     return (
       <div>
-        <h1>Add Contact</h1>
+        <h2>Add Contact</h2>
         <form onSubmit={this.handleSubmit}> 
-            <label htmlFor="name">Full Name</label><br/>
-            <input type="text" ref={this.addName} id ="name" /><br/>
-            <label htmlFor="name">Number</label><br/>
-            <input type="text" ref={this.addNumber} id ="number" /><br/>
-            <button type="submit">Submit</button>
+            <label class = "h3" htmlFor="name">Full Name</label><br/>
+            <input type = "text" ref = {this.addName} id = "name" /><br/><br/>
+            <label class = "h3" htmlFor = "name">Phone Number</label><br/>
+            <input type = "text" ref = {this.addNumber} id = "number" /><br/>
+            <button type = "submit">ADD</button>
          </form>
       </div>
     );

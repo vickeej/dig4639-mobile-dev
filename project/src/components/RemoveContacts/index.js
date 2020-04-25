@@ -41,13 +41,11 @@ class removeContacts extends React.Component{
     render(){
         return(
             <div>
-                <h1>Remove Contact</h1>
+                <h2>Remove Contact</h2>
                 <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="name">Enter position</label>
-                    <br/>
-                    <input type = "text" ref={this.removeC} id = "position"/>
-                    <br/>
-                    <button type= "submit">Submit</button>
+                    <label class = "h3" htmlFor = "name">Enter Contact Position</label>
+                    <input type = "text" ref = {this.removeC} id = "postion" />
+                    <button type = "submit">REMOVE</button>
                     </form>
             </div>
         );
