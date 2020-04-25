@@ -1,6 +1,6 @@
-# Lab 5 Getting and Using External Data
+# Final Project: Contacts App
 - DIG4639C Mobile Development
-- Vickee Johnson: https://github.com/vickeej/dig4639-mobile-dev/tree/master/labs/5
+- Vickee Johnson: https://github.com/vickeej/dig4639-mobile-dev/tree/master/project
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

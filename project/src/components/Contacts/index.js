@@ -12,7 +12,7 @@ class Contacts extends React.Component {
   componentDidMount() {
     fetch('http://plato.mrl.ai:8080/contacts', {headers: {API: "johnson"}})
       .then(res => res.json())
-      .then((result) => {
+      .then((data) => {
         this.setState({
           contacts: [data]
         })
@@ -23,7 +23,7 @@ class Contacts extends React.Component {
     return (
       <>
         {this.state.contacts
-          .map((v) => <p key = {index}
+          .map((v, index) => <p key = {index}
             name = {v.name}
             number = {v.number}
           />)}

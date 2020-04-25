@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from './components/Profile';
-import AddContacts from './components/addContacts';
-import RemoveContacts from './components/removeContacts';
+import AddContacts from './components/AddContacts';
+import RemoveContacts from './components/RemoveContacts';
 import Contacts from './components/Contacts';
 import './App.css';
 

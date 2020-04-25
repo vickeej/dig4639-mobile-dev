@@ -37,7 +37,7 @@ class addContacts extends React.Component {
     }, [])
   }
 
-handleSubmit = ei => {
+handleSubmit = e => {
 e.preventDefault();
 this.addUser();
 }
