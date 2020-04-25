@@ -2,14 +2,14 @@ body {
   max-width: 80%;
   margin-top: 20px;
   margin: auto;
-  background-color: rgb(0, 94, 94);
+  background-color: rgb(2, 99, 99);
 }
 
 .container {
   display: flex;
   flex: center;
   justify-content: space-evenly;
-  background-color: #4d91f7;
+  background-color: #2d65b9;
   margin: auto;
   padding: 20px;
   border: 5px;
@@ -20,17 +20,27 @@ h1 {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
-  color: rgb(24, 24, 24);
+  color: #dde0e0;
+  text-align: center;
+}
+
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #b4e6f5;
+  text-decoration: underline;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(188,194,194);
+  color: #b4e6f5;
 }
 
-.name {
+.h3 {
   font-size: 1em;
   font-weight: bold;
+  color: #07303d;
 }
 
 input {
