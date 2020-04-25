@@ -19,6 +19,7 @@ class App extends React.Component{
         <div class="container">
             <Contacts/>
         </div>
+        * Refresh page to reflect changes *
       </body>
     );
   }
